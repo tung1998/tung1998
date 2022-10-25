@@ -1,10 +1,18 @@
-- 👋 Hi, I’m @tung1998
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Hi there 🤗
 
-<!---
-tung1998/tung1998 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+``` Javascript
+class Tung1998 {
+	constructor() {
+		this.pronouns = "he" || "him";
+		this.lang = ["vi-VN", "en-US"];
+		this.tools = ["Node", "Docker", "Vue", "Nuxt"];
+		this.learning = ["SQL", "NoSQL"];
+	}
+
+	sayHi() {
+		console.log("Thanks for dropping by, hope you find some of my work interesting.");
+	}
+}
+
+(new Tung1998()).sayHi();
+```
